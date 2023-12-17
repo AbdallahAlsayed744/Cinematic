@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backkground_shape"
+    android:orientation="vertical"
+    tools:context=".Fragments.ProfileFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:text="Profile"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        app:cardBackgroundColor="#494646"
+        app:cardCornerRadius="20dp" >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center|top"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:id="@+id/my_profile_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/my_person" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="130dp"
+            android:fontFamily="@font/nunito_bold"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="166dp"
+            android:fontFamily="@font/nunito_meduim"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/semi_white"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            app:cardBackgroundColor="@color/lightGrey"
+            app:cardCornerRadius="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/my_favorite"
+                    android:drawableRight="@drawable/my_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/nunito_meduim"
+                    android:text="My Favorite"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/my_history"
+                    android:drawableRight="@drawable/my_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/nunito_meduim"
+                    android:text="History"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/my_payment"
+                    android:drawableRight="@drawable/my_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/nunito_meduim"
+                    android:text="Payment Information"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <ImageView
+                    android:id="@+id/imageView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/my_line" />
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/my_settings"
+                    android:drawableRight="@drawable/my_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/nunito_meduim"
+                    android:text="Setting"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/my_help"
+                    android:drawableRight="@drawable/my_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/nunito_meduim"
+                    android:text="Help and Support"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/my_privacy"
+                    android:drawableRight="@drawable/my_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/nunito_meduim"
+                    android:text="Privacy Policy"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:id="@+id/log_out_profile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:drawableLeft="@drawable/my_logout"
+                    android:drawableRight="@drawable/my_arrow"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="@font/nunito_meduim"
+                    android:text="Log out"
+                    android:textColor="@color/white"
+                    android:textSize="23sp" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

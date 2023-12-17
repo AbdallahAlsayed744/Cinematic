@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "660567149089",
+    "project_id": "cinematic-cae38",
+    "storage_bucket": "cinematic-cae38.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:660567149089:android:294f6f7fe26928155a3160",
+        "android_client_info": {
+          "package_name": "com.example.cinematic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKhKMYAf9Duh-8f0vVcO78YjPggxNO2Po"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

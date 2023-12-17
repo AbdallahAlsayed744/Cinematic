@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backkground_shape"
+    android:orientation="vertical"
+    tools:context=".ui.Book_Ticket">
+
+    <TextView
+        android:id="@+id/book_ticket_tv_filmname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+    <com.mo_stepper.mohorizontalstepper.MoHorizontalStepper
+        android:id="@+id/stepper"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="290dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        app:selectedTextColor="@color/white"
+        app:selectedBackgroundColor="@color/bnfsg"
+        app:notSelectedBackgroundColor="@color/zozoz"
+        app:notSelectedTextColor="@color/zozoz"
+        app:notSelectedRingColor="@color/zozoz"
+        app:selectedSpacerColor="@color/bnfsg"
+        app:notSelectedSpacerColor="@color/zozoz"
+        app:numberOfSteps="3" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito_meduim"
+            android:text="Reservation"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito_meduim"
+            android:text="Payment"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/nunito_meduim"
+            android:text="Summary"
+            android:textColor="@color/white"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/frame_stepper"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        app:navGraph="@navigation/stepper_navigation" />
+
+
+</LinearLayout>

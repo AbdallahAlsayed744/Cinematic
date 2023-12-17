@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cinematic" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Cinematic" parent="Base.Theme.Cinematic" />
+    <style name="CardViewCustomStyle" parent="Theme.AppCompat">
+        <item name="android:background">@color/lolo</item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/lightGrey</item>
+        <item name="colorControlActivated">@color/duskYellow</item>
+
+    </style>
+    <style name="button" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/browser_actions_bg_grey</item>
+        <item name="android:colorControlActivated">@color/bnfsg</item>
+
+    </style>
+</resources>

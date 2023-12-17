@@ -1,0 +1,19 @@
+<resources xmlns:color="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Cinematic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <array name="zoprf" translatable="true">
+        <item  color="@color/white">" Choose The Nearest Cinema To You "</item>
+        <item>"Cinema Vox"</item>
+        <item >"Cinema Max"</item>
+        <item >"Cinema Cosmos"</item>
+        <item >"Cinema Metro"</item>
+
+
+
+    </array>
+
+
+</resources>
